@@ -2,6 +2,7 @@
 Budget vs Expense Analysis 
 Query: Compare the actual expenses against the budget for each department for the current fiscal year. 
 Entities Involved: EXPENSE, BUDGET, DEPARTMENT 
+Angelo Angel
 */
 
 SELECT DEPT_NAME, (ALLOCATED_AMT - SUM(EXPENSE_AMT)) AS "Difference between budget and actual expenses"
