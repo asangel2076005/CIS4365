@@ -17,6 +17,7 @@ ORDER BY (ALLOCATED_AMT - SUM(EXPENSE_AMT)) DESC;
 Joined three tables based upon their linking attribute: DEPT_ID
 In the ERD, the relationship goes from left to right starting with EXPENSE, to DEPARTMENT, to BUDGET
 So it seemed logical to begin with EXPENSE first despite being the many side of DEPARTMENT.
+Only chose entries tied to the year 2024
 Used aggregate functions to determine the difference between the budget amt and the sum of all incurred expenses by each department
 Also ordered the result by this aggregate functions and then grouped them by DEPT_NAME to avoid duplicates
 */
