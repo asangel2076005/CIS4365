@@ -2,7 +2,7 @@
 Waste Management Metrics 
 Query: Find the top 5 ingredients that have the highest waste log entries in the past year. 
 Entities Involved: INGREDIENT, WASTELOG, INVENTORY
-Angelo Angel
+Angelo AngeL
 */
 
 SELECT INGRED_NAME, SUM(WASTE_QTY) AS "Num of Wastes"
