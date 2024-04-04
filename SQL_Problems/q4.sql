@@ -23,3 +23,7 @@ WHERE
 GROUP BY 
     SUPPLIER.SUPP_ID, SUPPLIER.SUPP_COMPANY;
 
+-- Joined the Supplier and Expense table to see the total expenses. 
+-- The WHERE clause filters the orders based on their expense date. It selects the expenses made in the last quarter.
+-- The results are then grouped by the supplier ID. We can then see the total expenses for each supplier in the last three months. 
+
