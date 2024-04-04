@@ -2,6 +2,10 @@
 -- Eman, Krupa, Maybelline
 
 
+-- Supplier Expense Report 
+-- Query: Generate a report showing the total expenses for each supplier in the last quarter. 
+-- Entities: SUPPLIER, INVOICE, EXPENSE
+
 USE BAKERY;
 
 SELECT 
@@ -18,3 +22,4 @@ WHERE
     EXPENSE.EXPENSE_DATE >= DATE_SUB(CURDATE(), INTERVAL 3 MONTH)
 GROUP BY 
     SUPPLIER.SUPP_ID, SUPPLIER.SUPP_COMPANY;
+
