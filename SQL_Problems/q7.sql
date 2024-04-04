@@ -23,5 +23,3 @@ Summary:
 - Calculated total revenue for each event type by summing up catering revenue
 - Grouped by Event Type
 */  
-
-SELECT * FROM CATERING;
